@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Shulamit Ajzner - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React and Material UI.
 
-## Available Scripts
+![Portfolio Screenshot](public/screenshot.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- 📱 Fully responsive design that works on all devices
+- 🎨 Modern UI with Material UI components
+- ✨ Smooth animations and transitions using Framer Motion
+- 🔗 Smooth scrolling navigation
+- 📝 Contact form
+- 📊 Skills and experience showcase
+- 📂 Project portfolio section
+- 🚀 Easy deployment to GitHub Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Material UI
+- Framer Motion
+- React Scroll
+- React Icons
+- GitHub Pages
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14.0.0 or later)
+- npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/shulajz/portfolio.git
+   cd portfolio
+   ```
 
-### `npm run eject`
+2. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More
+## Customization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Personal Information
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Edit your personal information in each component:
 
-### Code Splitting
+- Update your name, title, and description in `Hero.js`
+- Update your bio in `About.js`
+- Update your skills in `Skills.js`
+- Update your experience in `Experience.js`
+- Update your project list in `Projects.js`
+- Update your contact information in `Contact.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Styling
 
-### Analyzing the Bundle Size
+The main theme is defined in `App.js`. You can modify the colors, typography, and more:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```javascript
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#4361ee", // Change this to your preferred primary color
+      dark: "#3a56d4",
+    },
+    secondary: {
+      main: "#2ec4b6", // Change this to your preferred secondary color
+    },
+    // ... more styling options
+  },
+  // ... more theme options
+});
+```
 
-### Making a Progressive Web App
+### 3. Images
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Replace the placeholder images with your own:
 
-### Advanced Configuration
+1. Add your profile images to the `public` folder
+2. Update the image paths in the components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Deployment
 
-### Deployment
+This project can be easily deployed to GitHub Pages. Follow the instructions in [Deployment Guide](DEPLOYMENT.md).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
+This project is open source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+
+- [Create React App](https://create-react-app.dev/)
+- [Material UI](https://mui.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Scroll](https://github.com/fisshy/react-scroll)
+- [React Icons](https://react-icons.github.io/react-icons/)
