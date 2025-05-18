@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/personal-bio/static/js/main.ed4eb78b.js",
+    "static/media/me-bg.png": "/personal-bio/static/media/me-bg.3ed2b07163ee4836e3f6.png",
+    "index.html": "/personal-bio/index.html",
+    "main.ed4eb78b.js.map": "/personal-bio/static/js/main.ed4eb78b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ed4eb78b.js"
+  ]
+}
