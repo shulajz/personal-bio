@@ -10,7 +10,8 @@ import {
 } from "@mui/material";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import profileImage from "../assets/images/me-bg.png";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 
@@ -38,7 +39,7 @@ const Hero = () => {
               <Typography
                 color="primary"
                 variant="h6"
-                sx={{ mb: 1, fontWeight: 800 }}
+                sx={{ mb: 1, fontWeight: 500 }}
               >
                 Hello, I'm
               </Typography>
@@ -173,7 +174,7 @@ const Hero = () => {
             >
               <Box
                 component="img"
-                src="https://via.placeholder.com/450"
+                src={profileImage}
                 alt="Shulamit Ajzner"
                 sx={{
                   maxWidth: "100%",
