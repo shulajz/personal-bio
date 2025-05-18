@@ -17,7 +17,6 @@ import LaunchIcon from "@mui/icons-material/Launch";
 import { motion } from "framer-motion";
 
 const Projects = () => {
-  // Projects data
   const projects = [
     {
       id: 1,

@@ -1,17 +1,5 @@
-import React, { useState } from "react";
-import {
-  Box,
-  Container,
-  Typography,
-  Grid,
-  TextField,
-  Button,
-  Paper,
-  Stack,
-  Alert,
-  Snackbar,
-  IconButton,
-} from "@mui/material";
+import React from "react";
+import { Box, Container, Typography, Grid, Paper, Stack } from "@mui/material";
 import { motion } from "framer-motion";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -19,44 +7,6 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
-  const [formSubmitted, setFormSubmitted] = useState(false);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-
-    // In a real application, you would send this data to a server
-    // For this demo, we'll just simulate a successful submission
-    setFormSubmitted(true);
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
-
-    // Reset the form status after 5 seconds
-    setTimeout(() => {
-      setFormSubmitted(false);
-    }, 5000);
-  };
-
-  const handleCloseSnackbar = () => {
-    setFormSubmitted(false);
-  };
-
   const contactInfo = [
     {
       icon: <EmailIcon />,

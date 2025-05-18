@@ -17,7 +17,6 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-scroll";
 
-// Scroll trigger for the AppBar elevation
 function ElevationScroll(props) {
   const { children } = props;
   const trigger = useScrollTrigger({
@@ -160,16 +159,14 @@ const Header = () => {
         </AppBar>
       </ElevationScroll>
 
-      {/* Offset for fixed AppBar */}
       <Toolbar id="back-to-top-anchor" />
 
-      {/* Mobile drawer */}
       <Drawer
         anchor="right"
         open={mobileOpen}
         onClose={handleDrawerToggle}
         ModalProps={{
-          keepMounted: true, // Better open performance on mobile
+          keepMounted: true,
         }}
         sx={{
           display: { xs: "block", md: "none" },
