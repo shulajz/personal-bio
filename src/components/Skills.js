@@ -20,7 +20,7 @@ const Skills = () => {
 
   const languages = ["English (Native)", "Hebrew (Native)"];
 
-  const education = ["B.Sc. Computer Science, Bar-Ilan University (2017-2020)"];
+  const education = ["B.Sc. Computer Science, Bar-Ilan University"];
 
   return (
     <Box
