@@ -35,8 +35,8 @@ const Projects = () => {
       id: 3,
       title: "MovieFlix",
       description:
-        "A responsive movie browsing application that allows users to search for movies and TV shows using the OMDb API. Users can view detailed information about each title, save favorites to their local storage for future reference, and enjoy a smooth user experience with a modern dark-themed interface.",
-      technologies: ["React", "TypeScript", "Material UI"],
+        "A feature-rich movie discovery platform that enables users to search and explore movies using the OMDb API. The app includes practical features such as a favorites system, a watchlist with watched/unwatched status tracking, and theme switching between light and dark modes. All user preferences and collections are saved in localStorage for a seamless experience across visits, with responsive design ensuring a great experience on all devices.",
+      technologies: ["React", "TypeScript", "Material UI", "Context API"],
       liveLink: "https://shulajz.github.io/movie-search-app",
     },
     {
