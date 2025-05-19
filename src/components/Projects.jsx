@@ -20,8 +20,7 @@ const Projects = () => {
       id: 1,
       title: "Personal Portfolio Website",
       description: "A responsive personal portfolio website.",
-      technologies: ["React", "CSS", "JavaScript"],
-      // githubLink: "https://github.com/shulajz/portfolio",
+      technologies: ["React", "JavaScript", "CSS", "Material UI"],
       liveLink: "https://shulajz.github.io/personal-bio/",
     },
     {
@@ -30,17 +29,15 @@ const Projects = () => {
       description:
         "A weather app that allows users to search for weather details based on the city they input. The app fetches data from the WeatherAPI and provides information on temperature, condition, and time difference between the user's location and the selected city.",
       technologies: ["React", "TypeScript", "CSS"],
-      // githubLink: "https://github.com/shulajz/weather-app",
       liveLink: "https://weather-app-seven-sand-58.vercel.app/",
     },
     {
       id: 3,
-      title: "Task Manager",
+      title: "MovieFlix",
       description:
-        "A full-stack task management application with user authentication, task creation, and organization features.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      githubLink: "https://github.com/shulajz/task-manager",
-      liveLink: "",
+        "A responsive movie browsing application that allows users to search for movies and TV shows using the OMDb API. Users can view detailed information about each title, save favorites to their local storage for future reference, and enjoy a smooth user experience with a modern dark-themed interface.",
+      technologies: ["React", "TypeScript", "Material UI"],
+      liveLink: "https://shulajz.github.io/movie-search-app",
     },
     {
       id: 4,
