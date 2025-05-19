@@ -55,7 +55,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "MovieFlix",
+      title: "MotionPicks",
       description:
         "A feature-rich movie discovery platform that enables users to search and explore movies using the OMDb API. The app includes practical features such as a favorites system, a watchlist with watched/unwatched status tracking, and theme switching between light and dark modes.",
       technologies: ["React", "TypeScript", "Material UI", "Context API"],
