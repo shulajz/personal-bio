@@ -9,7 +9,6 @@ A modern, responsive portfolio website built with React and Material UI.
 - Smooth animations and transitions using Framer Motion
 - Smooth scrolling navigation
 - Contact form
-- Skills and experience showcase
 - Project portfolio section
 - Easy deployment to GitHub Pages
 

@@ -44,7 +44,6 @@ const Header = () => {
   const navItems = [
     { label: "Home", to: "hero" },
     { label: "About", to: "about" },
-    { label: "Skills", to: "skills" },
     { label: "Projects", to: "projects" },
     { label: "Experience", to: "experience" },
     { label: "Contact", to: "contact" },
