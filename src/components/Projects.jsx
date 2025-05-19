@@ -35,7 +35,7 @@ const Projects = () => {
       id: 3,
       title: "Tic Tac Toe Game",
       description:
-        "A modern, responsive Tic Tac Toe game featuring multiple difficulty levels (Easy, Medium, Hard), game history tracking, and statistics. The computer opponent uses different AI strategies based on the selected difficulty.",
+        "A modern, responsive Tic Tac Toe game featuring multiple difficulty levels (Easy, Medium, Hard), game history tracking, and statistics. The computer opponent implements different algorithmic strategies based on the selected difficulty.",
       technologies: ["React", "JavaScript", "Tailwind CSS"],
       liveLink: "https://shulajz.github.io/tic-tac-toe/",
     },
