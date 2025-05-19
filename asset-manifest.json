@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/personal-bio/static/js/main.a5ffdbb6.js",
+    "main.js": "/personal-bio/static/js/main.6daa954d.js",
     "static/media/me-bg.png": "/personal-bio/static/media/me-bg.3ed2b07163ee4836e3f6.png",
     "index.html": "/personal-bio/index.html",
-    "main.a5ffdbb6.js.map": "/personal-bio/static/js/main.a5ffdbb6.js.map"
+    "main.6daa954d.js.map": "/personal-bio/static/js/main.6daa954d.js.map"
   },
   "entrypoints": [
-    "static/js/main.a5ffdbb6.js"
+    "static/js/main.6daa954d.js"
   ]
 }
