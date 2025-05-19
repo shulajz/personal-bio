@@ -25,28 +25,19 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Weather App",
-      description:
-        "A weather app that allows users to search for weather details based on the city they input. The app fetches data from the WeatherAPI and provides information on temperature, condition, and time difference between the user's location and the selected city.",
-      technologies: ["React", "TypeScript", "CSS"],
-      liveLink: "https://weather-app-seven-sand-58.vercel.app/",
-    },
-    {
-      id: 3,
       title: "MovieFlix",
       description:
-        "A feature-rich movie discovery platform that enables users to search and explore movies using the OMDb API. The app includes practical features such as a favorites system, a watchlist with watched/unwatched status tracking, and theme switching between light and dark modes. All user preferences and collections are saved in localStorage for a seamless experience across visits, with responsive design ensuring a great experience on all devices.",
+        "A feature-rich movie discovery platform that enables users to search and explore movies using the OMDb API. The app includes practical features such as a favorites system, a watchlist with watched/unwatched status tracking, and theme switching between light and dark modes.",
       technologies: ["React", "TypeScript", "Material UI", "Context API"],
       liveLink: "https://shulajz.github.io/movie-search-app",
     },
     {
-      id: 4,
-      title: "E-commerce Product Page",
+      id: 3,
+      title: "Tic Tac Toe Game",
       description:
-        "An interactive product page featuring a product image gallery, customization options, and cart functionality.",
-      technologies: ["React", "CSS", "JavaScript"],
-      githubLink: "https://github.com/shulajz/ecommerce-page",
-      liveLink: "#",
+        "A modern, responsive Tic Tac Toe game featuring multiple difficulty levels (Easy, Medium, Hard), game history tracking, and statistics. The computer opponent uses different AI strategies based on the selected difficulty.",
+      technologies: ["React", "JavaScript", "Tailwind CSS"],
+      liveLink: "https://shulajz.github.io/tic-tac-toe/",
     },
   ];
 
