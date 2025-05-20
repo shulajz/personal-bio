@@ -18,7 +18,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
 import WebIcon from "@mui/icons-material/Web";
 import MovieIcon from "@mui/icons-material/Movie";
-import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import WorkIcon from "@mui/icons-material/Work";
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -39,7 +39,7 @@ const Projects = () => {
       primary: "#8B5CF6", // Purple
       secondary: "#A78BFA",
       gradient: "linear-gradient(135deg, #8B5CF6, #A78BFA)",
-      icon: <SportsEsportsIcon />,
+      icon: <WorkIcon />,
     },
   ];
 
@@ -64,11 +64,11 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Tic Tac Toe Game",
+      title: "DevJobTracker",
       description:
-        "A modern, responsive Tic Tac Toe game featuring multiple difficulty levels (Easy, Medium, Hard), game history tracking, and statistics. The computer opponent implements different algorithmic strategies based on the selected difficulty.",
+        "A modern job application tracker with an intuitive, kanban-style interface. Features include drag-and-drop functionality, status tracking (Applied, Interviewing, Offer, Rejected), dark/light mode, search/filtering capabilities, and persistent storage. Perfect for managing your job search process.",
       technologies: ["React", "JavaScript", "Tailwind CSS"],
-      liveLink: "https://shulajz.github.io/tic-tac-toe/",
+      liveLink: "https://shulajz.github.io/job-tracker/",
       color: projectColors[2],
     },
   ];
