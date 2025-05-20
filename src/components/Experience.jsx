@@ -18,9 +18,7 @@ import {
 } from "@mui/material";
 import { motion } from "framer-motion";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
-import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import CodeIcon from "@mui/icons-material/Code";
-import SchoolIcon from "@mui/icons-material/School";
 import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
 
 const Experience = () => {
@@ -272,15 +270,15 @@ const Experience = () => {
                         >
                           <ListItemIcon
                             sx={{
-                              minWidth: 32, // Reduced to align better
-                              mt: 0.25, // Adjusted to align with text vertically
-                              alignSelf: "flex-start", // Aligns to the top of the text
+                              minWidth: 32,
+                              mt: 0.25,
+                              alignSelf: "flex-start",
                             }}
                           >
                             <CheckCircleOutlineIcon
                               sx={{
                                 color: experience.color,
-                                fontSize: "1.2rem", // Slightly smaller for better alignment
+                                fontSize: "1.2rem",
                               }}
                             />
                           </ListItemIcon>
@@ -291,7 +289,7 @@ const Experience = () => {
                               color: "text.secondary",
                               lineHeight: 1.7,
                             }}
-                            sx={{ mt: 0 }} // Remove top margin for better alignment
+                            sx={{ mt: 0 }}
                           />
                         </ListItem>
                       ))}

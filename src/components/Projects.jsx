@@ -201,7 +201,6 @@ const Projects = () => {
                       },
                     }}
                   >
-                    {/* Decorative top accent */}
                     <Box
                       sx={{
                         height: "8px",
@@ -215,7 +214,6 @@ const Projects = () => {
                       }}
                     />
 
-                    {/* Icon header */}
                     <Box
                       sx={{
                         display: "flex",

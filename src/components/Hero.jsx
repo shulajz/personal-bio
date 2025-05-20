@@ -264,7 +264,6 @@ const Hero = () => {
                   }}
                 />
 
-                {/* Main profile image */}
                 <Box
                   component="img"
                   src={profileImage}
